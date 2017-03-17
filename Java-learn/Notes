@@ -1,0 +1,133 @@
+
+
+ Java learn
+ -------------
+ 
+ 
+    1. comparabale vs comparator
+    
+    --------------------------------------------------------------------
+    
+    2. collections
+    
+       
+         Types 
+         --------
+         
+         a. List
+         
+         	--> ordered o/p
+         	--> index based
+         	--> to hold duplicates objs
+         
+         b. Set
+         
+         	--> No Index
+         	--> No duplicates ( unique )
+         	
+         	
+         c. Map  
+         
+         	--> to group objs(value) with user identity(key)
+            
+            
+          Implementations
+          ----------------  
+          
+          
+          a. List
+          
+             1. Vector  ==> array , thread-safe 
+             2. ArrayList ==> array
+             3. LinkedList ==> double-linked-list
+          
+          b. Set
+          
+             1. TreeSet  ==> B-Tree  : sorted
+             2. HashSet  ==> hashtable : un-ordered
+             3. LinkedHashSet ==> DLL+Hashtable : ordered
+          
+          c. Map
+          
+              
+ 			 1. TreeMap  ==> B-Tree  : sorted
+             2. HashMap  ==> hashtable : un-ordered
+             3. LinkedHashMap ==> DLL+Hashtable : ordered
+             
+             4. Hashtable => hashtable ( thread-safe )
+             
+             etc.....
+             
+       --------------------------------------------------------------------
+             
+       3. equals & hashcode methods
+       
+    
+       --------------------------------------------------------------------
+       
+       4. Abstraction and Encapsulation
+       
+       
+       	
+       	  a. Abstraction/Interface / Front-End
+       	  
+       	  	 why we need ?
+       	  	 
+       	  	  --> easy to use/learn
+       	  	  --> loose coupling
+       	  	  
+       	  
+       	  b. Encapsulation / Implementation	 / Back-End
+       	  
+       	       -->  to hide complexity
+       	       --> for secure reasons
+       	       
+       	  
+       	   how to implement in java-lang?
+       	   
+       	   
+       	   --> using access-specifiers
+       	   --> using packages
+       	   
+       	   --> using interfaces/Abstract-class/class
+       	   
+       	   --> using structural-design patterns   
+       	   
+       	   
+       	 -----------------------------------------------------------------------
+       	 
+       	 
+       	 5. OOP ==> Inversion of Control
+       	 
+       	 
+       	 -----------------------------------------------------------------------
+       	 
+
+       	 6. Excecption Handling    
+       	 
+       	 -----------------------------------------------------------------------
+       	 
+       	 7. Annotations
+       	 
+       	 	
+       	 	--> JDK 1.5
+       	 	
+       	 	
+       	 -----------------------------------------------------------------------
+       	 
+       	 
+       	 
+       	 
+       	 
+       	 
+       	 	 
+       		
+       		
+       
+       
+       
+       
+       
+       
+             
+ 	
