@@ -41,7 +41,6 @@ public class TxrController extends HttpServlet {
 			String amount = req.getParameter("amount");
 			String fromAcc = req.getParameter("fromAcc");
 			String toAcc = req.getParameter("toAcc");
-
 			
 			
 			boolean b = txrService.doTxr(Double.parseDouble(amount), fromAcc, toAcc);
