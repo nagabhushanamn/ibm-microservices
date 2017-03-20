@@ -1,0 +1,64 @@
+
+
+	bank:
+	
+	------------------------------------------------------------
+	
+	use-case : txr(money,from,to)
+	
+	------------------------------------------------------------
+
+
+
+
+
+    MVC  ( Model View Controller 
+    ------------------------------------------------------------
+    
+    1. Model ( business data )
+    
+       Customer	
+       Account
+       Txn
+       
+   
+       common-Layer(s)
+       
+       --> data/repository - layer  ===> persisting logic
+       
+       
+       			- data-access-technologies  ( if data persisted in RDBMS )
+       			
+       			  --> using JDBC
+       			  --> using Hibernate
+       			  --> using JPA
+       			  
+       			  
+       			
+       
+       --> service layer
+       
+      
+      2. View 
+      
+      
+      3. Controller 
+      
+          --> Web-layer
+       
+       ------------------------------------------------------------
+       
+       
+       adv:
+        
+          --> easy to maintain
+          --> easy to test
+          --> easy to extend
+          --> rapid dev
+          
+       ------------------------------------------------------------  
+       
+       
+       
+       
+       
